@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.main_container{
+    position: absolute;
+
+
+width: 75%;
+height: 75%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 25px;
+background: linear-gradient(to right, #8a2387, #e94057, #f27121);;
+color: white;
+box-shadow: rgba(0, 0, 0, 0.75) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+body::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: skewy(10deg);
+    background : linear-gradient(to right, #b92b27, #1565c0);
+    z-index: -1;
+
+   
+   
+
+}
+
+.left{
+width: 40%;
+height: 50%;
+
+}
+.left p , h1 {
+    margin-bottom:40px ;
+}
+.left p  {
+    font-size: large;
+    margin-bottom:40px ;
+}
+.left h1{
+    font-size: xx-large;
+}
+.shoes img{
+    width: 600px;
+    height: 300px;
+}
+.shoes{
+    position: absolute;
+   
+    top: -2%;
+    right: -8%;
+    
+}
+.shoes:hover{
+    position: absolute;
+    top: -15%;
+}
+.shoes img:hover{
+   
+   
+    width: 900px;
+    height: 600px;
+}
